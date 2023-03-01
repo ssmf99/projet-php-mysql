@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Ajouter un apprenant a la base</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap-4.6.1-dist/css/bootstrap.min.css" type="text/css">
+</head>
+<body>
+	<h1><center>AJOUTER UN NOUVEAU PRODUIT</center></h1>
+	<div class="container bg-primary mt-2 p-2 text-center" >
+	<form action="inserer.php" method="post" class="mt-2 p-2 text-white" enctype="multipart/form-data">
+		nom : <input type="text" name="nom" placeholder="saisir le nom"  class="mt-2 p-2  form-control"><br><br>
+		commentaire : <input type="text" name="commentaire" placeholder="mettre votre commentaire"  class="mt-2 p-2  form-control"><br><br>
+		prix : <input type="text" name="prix" placeholder="saisir le prix"  class="mt-2 p-2  form-control"><br><br>
+		categorie: <input type="text" name="categorie" placeholder="choisir le categorie"  class="mt-2 p-2  form-control"><br><br>
+		images : <input type="file" name="images" placeholder="choisir l'images"  class=" mt-2 p-2  form-control"><br><br>
+		<input type="submit" value="Ajouter">&nbsp; &nbsp; 
+		<input type="reset" value="Effacer">
+	</form>
+</div>
+	<a href="affichagev2.php">afficher la  liste des produits</a>
+</body>
+</html>

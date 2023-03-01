@@ -1,0 +1,16 @@
+table{
+    background: rgb(0, 0, 252);
+    text-decoration: #fff;
+    color: #fff;
+    margin: 40px;
+    padding: 40px;
+    align-items: center;
+    border: #fff;
+    width: 100%;
+    
+}
+tr a{
+    text-decoration: #fff;
+    color: #fff;
+    text-align: center;
+}
