@@ -45,6 +45,7 @@ else{//debut bloc des traitements des donnees sur la BD
     <p class="card-text">Des ceintures de  haute qualité en cuire provenant de ngaye</p>
     <a href="#" class="btn btn-primary">A savoir plus</a>
   </div>
+  <h1>TEST</h1>
   </div>
   </div>
   <?php
